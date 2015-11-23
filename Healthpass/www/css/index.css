@@ -1,0 +1,51 @@
+body
+{ background: #fff;
+}
+#pageone { 
+text-align:center; position: relative; top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+#pageone h1 { color:red}
+#pageone p { color:#000; font-size:12px;}
+
+#pagetwo .ui-content a { text-align:right;}
+
+
+.ui-content { padding:2em !important;}
+
+.ui-footer p { text-align:center;font-size:12px;}
+.form_fields .ui-input-text { background: none !important;
+box-shadow: none !important;
+border-bottom: 4px solid #7F7F7F!important;
+border-left: 0px !important;
+border-right: 0px !important;
+border-top: 0px !important;
+border-radius:0px !important;
+width: 60px;
+display:inline-block;
+vertical-align: bottom;
+}
+
+.form_fields_full .ui-input-text { background: none !important;
+box-shadow: none !important;
+border-bottom: 4px solid #7F7F7F!important;
+border-left: 0px !important;
+border-right: 0px !important;
+border-top: 0px !important;
+border-radius:0px !important;
+}
+
+.form_fields .field_seperator{ font-size: 46px;
+margin: 0px 10px; color:#7F7F7F;}
+.form_caption {font-size:12px; text-align:center; color:#7F7F7F;}
+.form_action .ui-input-btn{  background-image: url("../img/submit.png");
+box-shadow: none !important;
+border: 0px none !important;
+background-repeat: no-repeat;
+background-position: center center;
+padding: 30px; }
+.submit_round { color:#7F7F7F; font-size:12px;}
+.form_fields{ text-align: center;	}
+.center_cont { text-align:center;}

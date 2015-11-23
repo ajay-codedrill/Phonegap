@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Health Pass</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+     
+
+	 
+	
+	 
+	 
+<div data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>Health Pass</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+      <a href="#page_hypertension" class="ui-btn ui-btn ui-icon-star ui-btn-icon-left ui-shadow ui-corner-all">Hypertension</a>
+      <a href="#page_weight" class="ui-btn ui-btn ui-icon-star ui-btn-icon-left ui-shadow ui-corner-all">Weight Management</a>
+      <a href="#pagetwo" class="ui-btn">Respiratory</a>
+      <a href="#pagetwo" class="ui-btn">Diabetes</a>
+      <a href="#pagetwo" class="ui-btn">Past Results</a>
+      <a href="#pagetwo" class="ui-btn">Set Notifications</a>
+      <a href="#pagetwo" class="ui-btn">User and Doctor Details</a>
+	  <a href="#pagetwo" class="ui-btn">Terms and Conditions</a>			  
+	  		
+  </div>
+
+  <div data-role="footer">
+    <p>&copy; Copyright Codedrillinfotech.com</p>
+  </div>
+</div> 
+	 
+	 
+	 
+<div data-role="page" id="page_hypertension">
+  <div data-role="header">
+    <a href="#leftpanel1" data-role="button" data-inline="true" data-icon="grid" data-iconpos="notext"></a> <h1>Hypertension</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <h3 class="center_cont">Todays blood pressure:</h3>
+   
+	<div class="form_fields">
+	<input type="text" name="bp_input1" id="bp_input1" placeholder="" class="app_input">
+	<span class="field_seperator">/</span>
+	<input type="text" name="bp_input2" id="bp_input2" placeholder="" class="app_input">
+	</div>
+	<div class="form_caption">Capture blood pressure</div>
+	<div class="form_action"><input type="submit" class="submit_round" value="Calculate"></div>
+  </div>
+  <div data-role="footer">
+    <p>&copy; Copyright Codedrillinfotech.com</p>
+  </div>
+</div> 
+
+
+<div data-role="page" id="page_weight">
+  <div data-role="header">
+    <a href="#leftpanel1" data-role="button" data-inline="true" data-icon="grid" data-iconpos="notext"></a> <h1>Weight Management</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   
+    <h3 class="center_cont">Capture Weight</h3>
+   
+	<div class="form_fields_full">
+	<input type="text" name="wt_input1" id="wt_input1" placeholder="" class="app_input">
+	</div>
+
+	<div class="form_action"><input type="submit" class="submit_round" value="Calculate"></div>
+   
+   
+  </div>
+
+  <div data-role="footer">
+    <p>&copy; Copyright Codedrillinfotech.com</p>
+  </div>
+</div> 
+	 <div class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-body-a ui-panel-animate ui-panel-closed" data-role="panel" id="leftpanel1" data-position="left" data-display="reveal" data-theme="a">
+
+        <div class="ui-panel-inner"><a href="#page_hypertension" class="ui-btn ui-btn ui-icon-star ui-btn-icon-left ui-shadow ui-corner-all">Hypertension</a>
+      <a href="#page_weight" class="ui-btn ui-btn ui-icon-star ui-btn-icon-left ui-shadow ui-corner-all">Weight Management</a>
+      <a href="#pagetwo" class="ui-btn">Respiratory</a>
+      <a href="#pagetwo" class="ui-btn">Diabetes</a>
+      <a href="#pagetwo" class="ui-btn">Past Results</a>
+      <a href="#pagetwo" class="ui-btn">Set Notifications</a>
+      <a href="#pagetwo" class="ui-btn">User and Doctor Details</a>
+	  <a href="#pagetwo" class="ui-btn">Terms and Conditions</a>			  
+	  		</div>
+        
+        
+        
+
+	</div> 
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
