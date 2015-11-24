@@ -1,51 +1,50 @@
-body
-{ background: #fff;
+body , .ui-page
+{ background: #fff !important;
 }
-#pageone { 
-text-align:center; position: relative; top: 50%;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-}
+#pageone {position: relative;}
+#pageone .ui-content {position: absolute;top: 50%;transform: translate(-50%, -50%);left:50%;text-align:center;width: 100%;}
+
+
 #pageone h1 { color:red}
 #pageone p { color:#000; font-size:12px;}
 
 #pagetwo .ui-content a { text-align:right;}
-
-
-.ui-content { padding:2em !important;}
-
+.ui-content { padding:2em !important; margin-bottom: 43px;}
 .ui-footer p { text-align:center;font-size:12px;}
-.form_fields .ui-input-text { background: none !important;
-box-shadow: none !important;
-border-bottom: 4px solid #7F7F7F!important;
-border-left: 0px !important;
-border-right: 0px !important;
-border-top: 0px !important;
-border-radius:0px !important;
-width: 60px;
-display:inline-block;
-vertical-align: bottom;
+.ui-footer { position: absolute !important;bottom: 0px;width: 100%;border:0px !important; background:#fff !important; height: 43px;}
+#pagetwo .ui-content {padding:1em !important; background:#414B57; }
+.ui-header .ui-title { margin: 0px 10% !important; color: #f00;font-size: 1.5em !important; }
+.ui-header { background:none !important; border:0px !important;}
+
+.form_fields .ui-input-text { background: none !important;box-shadow: none !important;border-bottom: 4px solid #7F7F7F!important;border-left: 0px !important;border-right: 0px !important;border-top: 0px !important;border-radius:0px !important;width: 60px;display:inline-block;vertical-align: bottom;
 }
 
-.form_fields_full .ui-input-text { background: none !important;
-box-shadow: none !important;
-border-bottom: 4px solid #7F7F7F!important;
-border-left: 0px !important;
-border-right: 0px !important;
-border-top: 0px !important;
-border-radius:0px !important;
+.form_fields_full .ui-input-text { background: none !important;box-shadow: none !important;border-bottom: 4px solid #7F7F7F!important;border-left: 0px !important;border-right: 0px !important;border-top: 0px !important;border-radius:0px !important;
 }
 
-.form_fields .field_seperator{ font-size: 46px;
-margin: 0px 10px; color:#7F7F7F;}
+.form_fields .field_seperator{ font-size: 46px;margin: 0px 10px; color:#7F7F7F;}
 .form_caption {font-size:12px; text-align:center; color:#7F7F7F;}
-.form_action .ui-input-btn{  background-image: url("../img/submit.png");
-box-shadow: none !important;
-border: 0px none !important;
-background-repeat: no-repeat;
-background-position: center center;
-padding: 30px; }
+.form_action .ui-input-btn{  background-image: url("../img/submit.png");box-shadow: none !important;border: 0px none !important;background-repeat: no-repeat;background-position: center center;padding: 30px;}
 .submit_round { color:#7F7F7F; font-size:12px;}
-.form_fields{ text-align: center;	}
+.form_fields{ text-align: center;}
 .center_cont { text-align:center;}
+.ui-header .ui-btn { box-shadow: none !important;border: 0px none !important; height: 45px;
+width: 45px; top: 0.8em !important;left: 0.8em !important;}
+.ui-page-theme-a .ui-btn { background-color: #fff !important;}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {  background-color: #fff !important; }
+
+/*   icons css */
+.ui-icon-hypertension:after { background:url('../img/hypertension.png'); background-color: transparent !important;border-radius: 0px !important;height: 25px !important;width: 25px !important; }
+.ui-icon-weight:after { background:url('../img/weight.png'); background-color: transparent !important;border-radius: 0px !important;height: 25px !important;width: 25px !important; }
+.ui-icon-respiratory:after { background:url('../img/respiratory.png'); background-color: transparent !important;border-radius: 0px !important;height: 25px !important;width: 25px !important; }
+.ui-icon-diabetes:after { background:url('../img/diabetes.png'); background-color: transparent !important;border-radius: 0px !important;height: 25px !important;width: 25px !important; }
+.ui-icon-results:after { background:url('../img/results.png'); background-color: transparent !important;border-radius: 0px !important;height: 25px !important;width: 25px !important; }
+.ui-icon-notification:after { background:url('../img/notification.png'); background-color: transparent !important;border-radius: 0px !important;height: 25px !important;width: 25px !important; }
+.ui-icon-users:after { background:url('../img/user.png'); background-color: transparent !important;border-radius: 0px !important;height: 25px !important;width: 25px !important; }
+.ui-icon-terms:after { background:url('../img/terms.png'); background-color: transparent !important;border-radius: 0px !important;height: 25px !important;width: 25px !important; }
+
+
+
+.ui-icon-hypertension-2x:after { background:url('../img/hypertension-2x.png'); background-color: transparent !important;border-radius: 0px !important;height: 45px !important;width: 45px !important; left:0px !important; top:0px !important; margin:0px !important; }
+
+/* icon css ends here */
